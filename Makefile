@@ -1,2 +1,2 @@
 default:
-	$(CROSS_COMPILE)$(CC) main.c -o rinputer2 $(CFLAGS) -lpthread -Wall -Wextra
+	$(CROSS_COMPILE)$(CC) main.c -o rbinder $(CFLAGS) -lpthread -Wall -Wextra
