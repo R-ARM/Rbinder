@@ -1,0 +1,8 @@
+[Unit]
+Description=Ragnarok Input Remappingg Daemon
+
+[Service]
+ExecStart=/usr/bin/rbinder
+
+[Install]
+WantedBy=multi-user.target
